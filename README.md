@@ -24,16 +24,14 @@
 # Tools/Technologies Used:
 
 - Kotlin
-- FirebaseAuth (Authentication)
-- Firebase Firestore Database (Non-Relational Database)
-- Firebase Storage
-- Firebase UI: FirebaseRecyclerView
+- Socket, Http
+- Fragment, SharedPreferences, RecyclerView
 
 # Project Structure:
 
 ```structure
 - [:app]
-    - com.avinash.chatx
+    - com.example.appchatx
         - adapters
             - ChatAdapter
             - ChatroomAdapter
@@ -52,6 +50,9 @@
             - User
         - util
             - UserUtil
+            - SessionUtil
+            - TimeUtil
+            - SecketUtil
         - ChatFragment
         - ChatroomFragment
         - CommentsActivity
@@ -76,12 +77,4 @@
     - local.properties
 ```
 
-# Live Working Preview:
 
-![](preview/v1.gif)
-![](preview/v2.gif)
-![](preview/v3.gif)
-
-# Credits:
-
-- [Avinash Kumar](https://github.com/avinashbest)
